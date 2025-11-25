@@ -1,0 +1,22 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "TypeScript Design Patterns Examples",
+  "type": "module",
+  "scripts": {
+    "singleton": "bun run creational/singleton/example.ts",
+    "factory": "bun run creational/factory/example.ts",
+    "builder": "bun run creational/builder/example.ts",
+    "adapter": "bun run structural/adapter/example.ts",
+    "decorator": "bun run structural/decorator/example.ts",
+    "facade": "bun run structural/facade/example.ts",
+    "observer": "bun run behavioral/observer/example.ts",
+    "strategy": "bun run behavioral/strategy/example.ts",
+    "command": "bun run behavioral/command/example.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0"
+  }
+}
+
