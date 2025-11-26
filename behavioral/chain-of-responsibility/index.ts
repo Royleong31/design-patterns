@@ -247,6 +247,7 @@ export class SupportSystem {
     const manager = new ManagerHandler();
 
     // Set up chain: Bot -> Agent -> Supervisor -> Manager
+    // TODO: Add a catch all handler to handle tickets that are not handled by any of the handlers
     bot.setNext(agent).setNext(supervisor).setNext(manager);
 
     this.chainHead = bot;
